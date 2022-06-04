@@ -1,0 +1,136 @@
+
+.nav-icon-line {
+    background-color: darkgray;
+    height: 2px;
+    border-radius: 25px;
+    margin: 3px;
+    width: 20px;
+    }
+  .nav-menu {
+      background-color: #ffffff;
+      
+      list-style-type: none;
+     
+      position: fixed;
+      
+      top: 5rem;
+      display: flex;
+      flex-direction: column;
+      margin-right: 100vw;
+      width: 20%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+
+  } 
+ .nav-display {
+     display: none;
+ }
+  
+  
+ 
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      text-decoration: none;
+      margin-bottom: 30px;
+  }
+  .image {
+      height: 40px;
+      width: 90px;
+  }
+  .search-bar{
+      
+      border-style: none;
+      border: none;
+      border-width: 0px;
+      width: 100px;
+      margin-left: auto;
+      margin-right: 100px;
+      display: flex;
+      
+  }
+  input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+}
+  .search-image {
+      height: 15px;
+      width: 15px;
+      padding-right: 10px;
+      padding-top: 5px;
+  }
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    
+}
+.featured-voices-container {
+    background-color: #ffffff;
+    padding-left: 25px;
+    height: 90vh;
+    width: 70vw;
+    
+}
+.main-heading {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+    
+}
+.featured-voices-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.featured-voices-name{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(231, 77, 77);
+    
+    
+}
+.featured-voices-paragraph {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-right: 20px;
+    
+}
+.latest-stories-container {
+    background-color: rgb(235, 235, 19);
+    padding: 40px;
+    height: 90vh;
+    width: 20vw;
+}
+.latest-stories-heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.latest-stories-text {
+    font-size: 17px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: black;
+}
+
+.active {
+    text-decoration: none;
+  }
