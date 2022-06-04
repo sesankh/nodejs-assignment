@@ -130,6 +130,12 @@
     font-family: sans-serif;
     color: black;
 }
+.dateEle {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: black;
+}
 
 .active {
     text-decoration: none;
